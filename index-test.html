@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/wheelmenu.css" rel="stylesheet">
+		
+</head>
+
+<body>
+
+
+
+    <h1>Hello, world!</h1>
+
+	
+
+		<a href="#wheel" class="wheel-button">
+		    <span>Click Here</span>
+		</a>
+		<ul id="wheel">
+			<li class="item"><a href="#home">...</a></li>
+			<li class="item"><a href="#home">...</a></li>
+			<li class="item"><a href="#home">...</a></li>
+		</ul>
+		
+	
+	<!--wheel menu-->
+	<script>
+	$(".wheel-button").wheelmenu({
+	        animation: "fly",
+	        animationSpeed: "medium",
+	    angle: “all”
+	 });
+	 </script>
+
+</html>

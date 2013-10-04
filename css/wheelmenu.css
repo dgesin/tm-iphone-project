@@ -1,0 +1,44 @@
+/* Required Stylesheets */
+
+.wheel-button {
+	position: fixed;
+	top:70%;
+	left:0;
+	margin-top:-50px;
+	display:block;
+}
+.wheel {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 200px; /* this will determine the diameter of the circle  */
+	height: 200px; /* this will determine the diameter of the circle  */
+	visibility: hidden;
+	position: relative;
+	display: none;
+}
+.wheel li {
+	overflow: hidden;
+	float: left;
+}
+.wheel li a {
+	display: block;
+}
+.pointer{
+	text-align:center;
+}
+
+@media screen and (orientation:portrait){
+	.wheel-button{
+		top:70%;
+	}
+}
+
+@media screen and (orientation:landscape){
+	
+.wheel-button {
+	top:50%;
+}
+
+}
+	

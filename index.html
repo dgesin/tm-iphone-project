@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta charset="UTF-8" />
+    <title>Spout</title>
+	<link href="css/wheelmenu.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+    
+	<style>
+	body{
+		overflow-y:hidden;
+	}
+	</style>
+</head>
+
+<body>
+	<header>
+    	<img id="logo" src="img/spout-logo.png" alt="Spout Logo">
+    </header>	
+    <a href="#wheel" class="wheel-button">
+        <i class="customicon-plus"><img src="img/open_nav.png" alt=""></i>
+    </a>
+    <ul id="wheel">
+        <li class="item"><a href="#home"><img src="img/nav_icon.png" alt=""></a></li>
+        <li class="item"><a href="#home"><img src="img/nav_icon.png" alt=""></a></li>
+        <li class="item"><a href="#home"><img src="img/nav_icon.png" alt=""></a></li>
+        <li class="item"><a href="#home"><img src="img/user_icon.png" alt=""></a></li>
+        <li class="item"><a href="#home"><img src="img/setttings_icon.png" alt=""></a></li>
+    </ul>	
+	<div>
+		<iframe class="chat" src='http://embed.scribblelive.com/Embed/v5.aspx?Id=233034&ThemeId=13898'></iframe>
+	</div>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.wheelmenu.js"></script>
+    <script type="text/javascript" src="js/shake.js"></script>
+	<!--wheel menu-->
+	<script type="text/javascript">
+    	$(".wheel-button").wheelmenu({
+			animation:"fly",
+			animationSpeed:"medium",
+			angle:"custom"
+		});
+  	</script>
+
+ </body>
+
+</html>
