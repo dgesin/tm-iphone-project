@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Strapit
 =======
 
@@ -29,3 +30,7 @@ Strapit's documentation, included in this repo in the root directory, is built w
 3. Open [http://localhost:9001](http://localhost:9001) in your browser, and voilà.
 
 Learn more about using Jekyll by reading their [documentation](http://jekyllrb.com/docs/home/).
+=======
+tm-iphone-project
+=================
+>>>>>>> c5c0e594e22f805fb472b7f6c3b258f3c2b9151f
